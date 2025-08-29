@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: kgr-leaderboard-api
+    env: node
+    region: virginia
+    plan: free
+    buildCommand: npm ci
+    startCommand: node server.js
+    envVars:
+      - key: DATABASE_URL
+        sync: false
