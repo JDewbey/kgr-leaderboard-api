@@ -10,15 +10,14 @@
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.18.2",
-    "pg": "^8.11.3",
-    "node-fetch": "^3.3.2"
+    "helmet": "^7.2.0",
+    "node-fetch": "^2.7.0",
+    "pg": "^8.11.3"
   },
   "devDependencies": {
     "nodemon": "^3.0.2"
   },
   "engines": {
     "node": ">=18.x"
-  },
-  "author": "JDewbey",
-  "license": "MIT"
+  }
 }
